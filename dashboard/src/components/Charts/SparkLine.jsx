@@ -3,7 +3,6 @@ import { SparklineComponent, Inject, SparklineTooltip } from '@syncfusion/ej2-re
 
 
 const SparkedLine = ({id, color, width, height, data, type, currentColor}) => {
-  console.log({ id, color, width, height, data, type, currentColor });
 
   return (
     <SparklineComponent
